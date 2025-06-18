@@ -1,0 +1,8 @@
+.navbar { display: flex; justify-content: space-between; padding: 1rem 2rem; background: var(--light); box-shadow: 0 1px 6px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+.nav-links { display: flex; gap: 1.5rem; }
+.menu-toggle { display: none; font-size: 1.5rem; cursor: pointer; }
+@media (max-width: 768px) {
+  .nav-links { display: none; flex-direction: column; position: absolute; right: 0; top: 60px; background: white; width: 100%; padding: 1rem 2rem; }
+  .nav-links.open { display: flex; }
+  .menu-toggle { display: block; }
+}
