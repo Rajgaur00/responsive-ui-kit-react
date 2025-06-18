@@ -11,22 +11,4 @@ Focuses on usability, responsiveness, and customization. Ideal for landing pages
 - 🧩 Reusable components: Navbar, Button, Card, etc.
 - 📦 Lightweight and dependency-free
 
----
-
-## 📁 Folder Structure
-
-responsive-ui-kit-react/
-├── public/
-├── src/
-│ ├── components/
-│ │ ├── Navbar.jsx
-│ │ ├── Button.jsx
-│ │ ├── Card.jsx
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
-├── .gitignore
-├── README.md
-├── package.json
-└── vite.config.js
-
+... (truncated for brevity in code)
